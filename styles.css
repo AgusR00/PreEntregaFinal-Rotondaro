@@ -296,6 +296,108 @@ button:hover {
     padding-top: 20px;
 }
 
-.form-select {
-height: 100%;
+
+/* -------------------------  P E R F I L -------------------------*/
+
+
+.form-container {
+    display: flex;
+    margin: 100px 100px 100px 100px;
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: white;
+    width: 80%;
+}
+
+
+/* -------------------------  SIGN IN -------------------------*/
+.subtitulo-form {
+    font-size: 22   px;
+    margin-bottom: 20px;
+
+}
+
+
+.form-signin {
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    border: 1px solid #b7cde1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.form-signin p {
+    height: 40px;
+    text-align: center;
+    font-size: 38px;
+}
+
+.form-signin a {
+    color: #049f82;
+}
+
+.form-signin a:hover {
+    color: #059278;
+    text-decoration: underline;
+}
+
+.button-form {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 12px;
+    color: white;
+    background-color: #049f82;
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+.checkbox {
+    margin-left: auto;
+}
+
+.controls {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(235, 231, 231);
+}
+
+
+/* -------------------------  SIGNUP -------------------------*/
+
+.form-signup {
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    border: 1px solid #b7cde1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.form-signup p {
+    height: auto;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.form-signup a {
+    color: #049f82;
+}
+
+.form-signup a:hover {
+    color: #059278;
+    text-decoration: underline;
 }

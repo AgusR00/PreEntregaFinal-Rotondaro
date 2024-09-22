@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil</title>
     <link rel="stylesheet" href="../styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
 <body>
     <header id="header">
         <div class="logo">
-            <a href="#"><img src="/images/_5d42821c-e5e7-41f8-b7a9-a786ba7fe2ca.jpg" alt="imagen de empresa"></a>
+            <a href="../index.html"><img src="/images/_5d42821c-e5e7-41f8-b7a9-a786ba7fe2ca.jpg" alt="imagen de empresa"></a>
         </div>
         <nav>
             <ul class="lista-nav">
@@ -37,9 +39,51 @@
 
     <main>
 
+        <div class="banner"></div>
+            <h1 class="titulo-banner">Mi perfil</h1>
+        </div>
+
+
+
+        <div class="form-container">
+            <div class="form-signin-container">
+                <form action="" method="post" class="form-signin">
+                    <h2 class="subtitulo-form">Acceder</h2>
+                    <label for="nombreapellido">Nombre de usuario o correo electrónico:</label>
+                    <input type="text" name="nombreapellido" id="nombreapellido" class="controls">
+
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" name="contraseña" id="contraseña" class="controls">
+
+                    <input type="checkbox" name="Recordarme" class="checkbox">Recordarme
+
+                    <input type="submit" value="Acceder" class="button-form">
+
+                    <p><a href="#">¿Olvidaste tu contraseña?</a></p>
+                </form>
+            </div>
+
+            <div class="form-signup-container">
+                <form action="" method="post" class="form-signup">
+                    <h2 class="subtitulo-form">Registrarse</h2>
+                    <label for="nombreapellido">Nombre de usuario:</label>
+                    <input type="text" name="nombreusuario" id="nombreusuario" class="controls">
+
+                    <label for="nombreapellido">Dirección de correo electrónico:</label>
+                    <input type="email" name="direccioncorreo" id="direccioncorreo" class="controls">
+
+                    <label for="nombreapellido">Contraseña:</label>
+                    <input type="password" name="contraseña" id="contraseña" class="controls">
+
+                    <p>Tus datos personales se utilizarán para procesar tu pedido, mejorar tu experiencia en esta web, gestionar el acceso a tu cuenta y otros propósitos descritos en nuestra <a href="#">Politica de privacidad</a></p>
+
+                    <input type="submit" value="Registrarse" class="button-form">
+                </form>
+            </div>
+        </div>
     </main>
 
-<footer id="footer">
+    <footer id="footer">
         <section>
             <ul class="footer-list1">
                 <li>Maquillaje</li>
