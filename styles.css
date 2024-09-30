@@ -200,12 +200,11 @@ form {
 }
 
 .container-items {
-    display: flex;
-    max-width: 1200px;
-    margin: auto;
-    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    background-color: white;
+    gap: 30px;
     padding: 30px;
-    flex-wrap: wrap;
 }
 
 .container-items h2 {
@@ -213,13 +212,11 @@ form {
 }
 
 .item {
-    flex: 0 0 25%;
-    padding: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(243, 243, 243);
+    padding: 40px;
     gap: 20px;
 }
 
@@ -228,24 +225,23 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(243, 243, 243);
 }
 
 .titulos h1 {
     display: flex;
     justify-content: center;
     padding: 20px;
-    background-color: rgb(243, 243, 243);
     font-size: 45px;
-
 }
 
 .titulos h5 {
     display: flex;
     justify-content: center;
     padding: 20px;
+    padding-bottom: 0;
     font-size: 25px;
     color: #049f82;
-    background-color: #f3f3f3;
 }
 
 .titulos .boton-tienda {
@@ -262,6 +258,7 @@ form {
     background-color: rgb(255, 255, 255);
     width: 100%;
     padding: 50px;
+    grid-column: 1/-1;
 }
 
 button {
