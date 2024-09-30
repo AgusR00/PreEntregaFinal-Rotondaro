@@ -204,6 +204,7 @@ form {
     max-width: 1200px;
     margin: auto;
     width: 80%;
+    padding: 30px;
     flex-wrap: wrap;
 }
 
