@@ -78,6 +78,7 @@ footer section .footer-list3 {
     color: white;
     background-color: green;
     border-radius: 50%;
+    z-index: 100;
 }
 
 .fa-whatsapp:hover {
@@ -106,6 +107,7 @@ footer section .footer-list3 {
     background-image: url("images/fondo-luces-desenfocadas_58460-157.avif");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: "Noto Serif", serif;
 }
 
 .item img {
@@ -205,6 +207,7 @@ form {
     background-color: white;
     gap: 30px;
     padding: 30px;
+    /* grid-template-columns: repeat(4, minmax(400px, 1fr)); */
 }
 
 .container-items h2 {
@@ -226,6 +229,8 @@ form {
     flex-direction: column;
     align-items: center;
     background-color: white;
+    font-family: "Noto Serif", serif;
+    
 }
 
 .titulos h1 {
@@ -233,6 +238,7 @@ form {
     justify-content: center;
     padding: 20px;
     font-size: 45px;
+    font-family: "Noto Serif", serif;
 }
 
 .titulos h5 {
@@ -497,6 +503,7 @@ button:hover {
     align-items: center;
     text-align: center;
     margin-top: 5%;
+    font-family: "Noto Serif", serif;
 }
 
 
