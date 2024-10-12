@@ -1,0 +1,51 @@
+/*--------------------------  G L O B A L  ---------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+    h1 {
+        align-content: center;
+    }
+}
+
+main {
+    flex: 1;
+    background-color: rgb(243, 243, 243);
+}
+
+.fa-whatsapp {
+    display: flex;
+    font-size: 2rem;
+    position: fixed;
+    padding: 20px;
+    bottom: 35px;
+    right: 30px;
+    color: white;
+    background-color: green;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+.fa-whatsapp:hover {
+        background-color: rgb(2, 153, 2);
+        cursor: pointer;
+    }
+

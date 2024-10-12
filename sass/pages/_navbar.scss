@@ -1,0 +1,84 @@
+/*--------------------------  N A V   B A R  ---------------------------------------*/
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+  
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white !important;
+    font-size: 20px;
+  }
+  
+  .navbar-toggler:hover {
+    background-color: #ebf5f3;
+  }
+  
+  .navbar .container-fluid {
+    width: fit-content;
+    margin: 0;
+    justify-content: center;
+  }
+  
+  nav {
+    display: block;
+    font-family: "PT Serif", serif;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .active {
+    color: #049f82 !important;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 30px;
+    list-style-type: none;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  
+  .navbar-nav a:hover {
+    color: #049f82;
+}
+
+  .navbar-nav li a {
+    color: black;
+  }
+  
+  .navbar-nav a {
+    color: inherit;
+    position: relative;
+    text-decoration: none;
+    
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -2px; /* Ajusta esta propiedad según la separación deseada del subrayado */
+      width: 100%;
+      height: 2px; /* Ajusta esta propiedad según el grosor del subrayado */
+      background-color: #049f82;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform .4s ease;
+    }
+
+  
+    &:hover:after {
+      transform: scaleX(1);
+    }
+  }
+  

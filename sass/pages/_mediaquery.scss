@@ -1,0 +1,56 @@
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Añadir un menú "hamburguesa" para pantallas pequeñas */
+    #header .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* Ocultar el menú de navegación en dispositivos móviles inicialmente */
+    nav ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    nav {
+        display: none;
+    }
+
+    /* Botón de hamburguesa */
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    /* Cuando el menú está activo */
+    .menu-toggle.active + nav ul {
+        display: flex;
+    }
+
+    #footer {
+        flex-direction: column;
+    }
+
+    .section-contact {
+        padding-left: 5vw;
+    }
+
+    .contact-conteiner {
+        flex-direction: column;
+    }
+
+    .container-items,
+    .container-items-tienda {
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+    }
+
+    .form-container {
+        width: 100%;
+    }
+}

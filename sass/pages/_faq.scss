@@ -1,0 +1,59 @@
+/* -------------------------  F A Q -------------------------*/
+
+.titulo-faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    font-family: "Noto Serif", serif;
+  }
+  
+  .acordeon {
+    margin: 100px auto;
+    max-width: 600px;
+    width: 90%;
+  
+    li { 
+      list-style: none;
+      width: 100%;
+      margin-bottom: 10px;
+      background-color: white;
+      padding: 10px;
+      border-radius: 4px;
+  
+      label {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 500;
+        cursor: pointer;
+        color: #049f82;
+        font-weight: bold;
+  
+        span {
+          transform: rotate(90deg);
+          font-size: 22px;
+          color: black;
+        }
+      }
+    }
+  
+    label + input[type="radio"] {
+      display: none;
+    }
+  
+    .content {
+      padding: 0 10px;
+      line-height: 26px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+  
+    label + input[type="radio"]:checked + .content {
+      max-height: 400px;
+    }
+  }
+  
