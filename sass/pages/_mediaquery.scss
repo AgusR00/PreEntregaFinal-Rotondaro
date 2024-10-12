@@ -4,35 +4,6 @@
         gap: 10px;
     }
 
-    /* Añadir un menú "hamburguesa" para pantallas pequeñas */
-    #header .logo {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    /* Ocultar el menú de navegación en dispositivos móviles inicialmente */
-    nav ul {
-        display: none;
-        flex-direction: column;
-    }
-
-    nav {
-        display: none;
-    }
-
-    /* Botón de hamburguesa */
-    .menu-toggle {
-        display: block;
-        cursor: pointer;
-        font-size: 24px;
-    }
-
-    /* Cuando el menú está activo */
-    .menu-toggle.active + nav ul {
-        display: flex;
-    }
-
     #footer {
         flex-direction: column;
     }
@@ -41,8 +12,18 @@
         padding-left: 5vw;
     }
 
-    .contact-conteiner {
+    .contact-container {
         flex-direction: column;
+        padding-left: 0;
+
+    }
+
+    .contact-info {
+        padding-left: 50px;
+    }
+
+    .contact-info .texto {
+        margin: 100px 0;
     }
 
     .container-items,
@@ -52,5 +33,24 @@
 
     .form-container {
         width: 100%;
+    }
+
+    .mapa {
+        width: 100%;
+    }
+
+    .pagination {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .titulo-faq {
+        justify-content: center;
+        align-items: center;
+        margin-top: 20%;
+    }
+
+    .acordeon {
+        padding: 0;
     }
 }
