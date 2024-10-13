@@ -46,6 +46,16 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.5s;
+  font-family: "Outfit", sans-serif;
+}
+.acordeon .content a {
+  text-decoration: none;
+  color: black;
+}
+.acordeon .content a:hover {
+  color: #049f82;
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 .acordeon label + input[type=radio]:checked + .content {
   max-height: 400px;
@@ -325,7 +335,7 @@ button:hover {
 }
 
 /*--------------------------  N A V   B A R  ---------------------------------------*/
-a {
+.navbar-nav a {
   text-decoration: none;
   color: black;
   font-size: 18px;
