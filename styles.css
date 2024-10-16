@@ -359,7 +359,7 @@ button:hover {
 .navbar {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around !important;
   background-color: white !important;
   font-size: 20px;
 }
@@ -551,11 +551,19 @@ main {
   cursor: pointer;
 }
 
+@media screen and (min-width: 769px) {
+  nav.navbar {
+    width: 75%;
+  }
+}
 @media screen and (max-width: 768px) {
   nav ul {
     flex-direction: column;
     gap: 10px;
   }
+  /*    nav.navbar {
+         justify-content: space-between;
+     } */
   #footer {
     flex-direction: column;
   }
