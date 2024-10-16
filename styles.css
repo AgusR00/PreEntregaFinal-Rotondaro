@@ -561,9 +561,6 @@ main {
     flex-direction: column;
     gap: 10px;
   }
-  /*    nav.navbar {
-         justify-content: space-between;
-     } */
   #footer {
     flex-direction: column;
   }
