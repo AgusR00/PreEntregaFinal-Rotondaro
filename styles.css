@@ -112,6 +112,9 @@
   gap: 30px;
   padding: 30px;
 }
+.container-items-tienda nav {
+  grid-column: 1/-1;
+}
 
 .item-tienda {
   display: flex;
@@ -156,6 +159,10 @@
   justify-content: flex-end;
   padding-right: 20px;
   padding-top: 20px;
+}
+
+.pagination {
+  flex-wrap: wrap;
 }
 
 .form-select {
